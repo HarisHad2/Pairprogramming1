@@ -1,4 +1,8 @@
 def index_of_caps(word):
-    return [word.index(l) for l in word if l.isupper()]
+    yy = []
+    for i in word:
+        if i.isupper():
+            word.index.append(i)
+    return yy
 
 print(index_of_caps("eDaBiT"))
